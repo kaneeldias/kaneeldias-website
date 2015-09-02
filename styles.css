@@ -1,0 +1,109 @@
+body{
+	height:1000px;
+	background-color:#DDDDDD;
+}
+a{
+	color:#117711;
+}
+
+a:hover{
+	text-decoration:none;
+	color:#339933;
+}
+
+.row{
+    overflow: hidden; 
+}
+
+[class*="col-"]{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+
+
+#title{
+	background-color:#333333;
+	font-size:30px;
+	text-align:right;
+	vertical-align:middle;
+	line-height:100px;
+	color:#BB2222;
+}
+
+#subtitle{
+	background-color:#333333;
+	color:#CCCCCC;
+	line-height:100px;
+	vertical-align:middle;
+	text-align:left;
+	font-size:19px;
+}
+
+#header{
+	z-index:99;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.max{
+	position:relative;
+	width:100%;
+	
+}
+
+.fab{
+	background-color:#117711;
+	position:absolute;
+	bottom:10px;
+	right:10px;
+	width:60px;
+	height:60px;
+	border-radius:60px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.fab:hover{
+	background-color:#339933;
+	cursor:pointer;
+}
+
+.title-image{
+	width:100%;
+	position:relative;
+}
+
+#k-note-title{
+	margin:0;
+	width:100%;
+	background-color:#449999;
+}
+
+.app-info-container{
+	background-color:#DDDDDD;
+	padding:20px;
+}
+
+.app-info-subsection{
+	background-color:#CDCDCD;
+}
+
+.app-description{
+	color:#000000
+	text-align:justify;
+}
+
+.feature_list{
+	display:block;
+	padding:5px;
+	padding-left:0px;
+}
+@media screen and (max-width: 992px){
+   #title{
+   	text-align:center;
+   	line-height:50px;;
+   }
+   
+   #subtitle{
+   	line-height:50px;
+   	text-align:center;
+   }
+}
